@@ -1,5 +1,6 @@
 body {
 	background: #000;
+	font-family: 'Quicksand', sans-serif; 
 }
 
 .forma {
@@ -22,24 +23,33 @@ body {
     left: 0;
 }
 
+.menu {    
+	height: auto;
+ }
+
 .menu a {
-    width: 20%;
+    width: 15%;
     float: left;
-    padding: 35px 0;
+    margin: 55px 0;
     color: #fff;
-    text-decoration-style: wavy;
+    text-decoration: none;
     position: relative; 
+    line-height: 2.5;
+    letter-spacing: 2px;
+    font-size: 13px;
 }
 
 .menu a:hover { 
     background: #893AA4;
+    border-radius: 20px;
+    height: 35px;
+
 }
 
 .logotipo {
     background: url(../img/logo-mbu.png) center no-repeat;
     text-indent: -99999999px;
     height: 150px;
-    position: relative; 
         
 }
 
@@ -74,8 +84,10 @@ body {
 
 
 .front-video h1 {
-	font-size: xx-large;
-	margin: 20%;
+	display: block;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 
 }
 
@@ -84,6 +96,8 @@ body {
 	width: 31%;
 	float: left;
 	margin: 0 1% 0;
+	font-size: 13px;
+
 }
 
 
