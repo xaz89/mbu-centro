@@ -35,7 +35,7 @@ header .menu a {
 }
 
 .logotipo {
-    background: url(../img/logo-mbu.png) center no-repeat;
+    background: url(/img/logo-mbu.png) center no-repeat;
     text-indent: -99999999px;
     height: 150px;
         
