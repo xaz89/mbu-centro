@@ -491,7 +491,7 @@ footer a {
 
 
 
-@media screen and (max-device-width: 800px) {
+@media (max-width: 800px) {
 
     .back-video {
         
@@ -526,6 +526,31 @@ footer a {
         color: #fff;
 
     }
+
+    .menu {    
+    height: auto;
+    right: 0;
+    float: right !important;
+    background: #980abc;
+    
+ }
+
+.menu a {
+    width: 20%;
+    float: left;
+    margin: 55px 0;
+    color: #fff;
+    text-decoration: none;
+    position: relative; 
+    line-height: 2.5;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+.menu a:hover { 
+    background: #980abc;
+    border-radius: 20px;
+    height: 33px;
 
 
 }
