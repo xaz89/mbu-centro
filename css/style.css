@@ -506,7 +506,7 @@ footer a {
 
 
     .back-image {
-        background: url(/img/fondo-mobile-n.jpg) fixed no-repeat 0 20%;
+        background: url(../img/fondo-mobile-n.jpg) fixed no-repeat 0 20%;
         float: left;
         display: block; 
         width: 100%;
@@ -519,7 +519,7 @@ footer a {
         height: 100%;
         float: left;
         display: block;
-        background: url(/img/fondo-mobile-n.jpg) fixed no-repeat 0 20%;
+        background: url(../img/fondo-mobile-n.jpg) fixed no-repeat 0 20%;
         color: #fff;
 
     }
