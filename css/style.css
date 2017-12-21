@@ -537,6 +537,8 @@ footer a {
     right: 0;
     float: right !important;
     background: #980abc;
+    position: sticky;
+    top: 0;
     
  }
 
