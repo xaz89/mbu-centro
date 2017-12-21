@@ -483,9 +483,15 @@ footer a {
     padding-bottom: 50px;
 }
 
+.back-image {
+        
+        display: none;
+    
+    }
 
 
-@media (max-width:400px) {
+
+@media (max-width:600px) {
 
     .back-video {
         
