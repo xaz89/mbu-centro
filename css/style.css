@@ -39,6 +39,11 @@ footer a {
 }
 
 
+.social {
+    width: 20px;
+}
+
+
 .boton {
     background: #980abc;
     height: 40px;
@@ -526,11 +531,40 @@ footer a {
 
 }
 
+    h3 {
+        
+        font-size: 45px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        
+        text-align: center;
+
+    }
+
+    small {
+        
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;
+        
+        text-align: center;
+
+    }
+
 p {
     font-family: 'Quicksand', sans-serif; 
     font-size: 34px;
     letter-spacing: 1px;
     line-height: 1.8;
+}
+
+
+footer a{
+    width: 80px;
+}
+
+.social {
+    width: 50px;
 }
 
 .boton {
@@ -552,10 +586,17 @@ p {
     left: 0;
 }
 
+    .diez {
+        width: 30%;
+        float: left;
+
+    }
+
     .cin {
         width: 100%;
 
     }
+
 
     .trein {
         width: 80%;
@@ -566,6 +607,8 @@ p {
     .logotipo {
         display: inline-block;
         width: 200px;
+        height: 130px;
+        margin: 2% 5px 0 15px;
     }
 
     .back-video {
@@ -642,14 +685,16 @@ p {
         height: 100%;
         float: left;
         display: block;
-        background: url(../img/fondo-mobile-n.jpg) fixed no-repeat 0 10%;
+        background: url(../img/fondo-mobile-n.jpg) repeat 0 100%;
         color: #fff;
 
     }
 
+  
+
     .menu {    
     height: auto;
-    right: 0;
+    right: 0 !important;
     float: right !important;
     background: #980abc;
     position: sticky;
@@ -660,7 +705,7 @@ p {
  }
 
 .menu a {
-    width: 23%;
+    width: 25%;
     float: left;
     margin: 55px 0;
     color: #fff;
@@ -692,8 +737,8 @@ p {
 }
 
 .cin-menu {
-    width: 100%;
-    float: left;
+    width: 95%;
+    float: right;
 }
 
 
