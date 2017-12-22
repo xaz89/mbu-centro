@@ -43,6 +43,10 @@ footer a {
     width: 20px;
 }
 
+.fondo-gris {
+    background: #c1c1c1;
+}
+
 
 .boton {
     background: #980abc;
@@ -218,6 +222,15 @@ footer a {
     background: #fff;
     color: #535353;
 }
+
+#cofradia {
+        height: 100%;
+        float: left;
+        display: block;
+        background: url(../img/fondo-cofra.jpg) repeat 0 100%;
+        color: #fff;
+
+    }
 
 
 /* Inicia Galería Parallax */
@@ -712,6 +725,16 @@ footer a{
 
 
     #dudas h1 {
+        
+        font-size: 100px;
+        font-weight: normal;
+        font-family: 'Lato', sans-serif;       
+        text-align: center;
+        margin: 18% 0 5%;
+
+    }
+
+    #cofradia h1 {
         
         font-size: 100px;
         font-weight: normal;
