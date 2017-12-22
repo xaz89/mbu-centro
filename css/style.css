@@ -66,7 +66,7 @@ footer a {
 }
 
 .contenedor {
-    max-width: 1000px;
+    max-width: 1024px;
     height: auto;
 }
 
@@ -104,15 +104,28 @@ footer a {
 
 }
 
+.menu a img { 
+    display: none;
+
+}
+
+
+.menu p {
+    line-height: 0.5;
+    font-size: 13px;
+}
+
+
+
 .cin-menu {
     width: 50%;
     float: left;
 }
 
 .logotipo {
-    background: url(../img/logo-mbu120.png) center no-repeat;
+    background: url(../img/logo-mbu.svg) center no-repeat;
     text-indent: -99999999px;
-    height: 130px;
+    height: 100%;
     position: relative;
     float: left;
         
@@ -169,6 +182,11 @@ footer a {
 	font-size: 13px;
 
 }
+
+ .front-image img{
+    display: none;
+        
+    }
 
 
 #nosotras {
@@ -496,7 +514,59 @@ footer a {
 
 
 
-@media screen and (max-device-width: 800px) {
+@media screen and (max-device-width: 1024px) {
+
+    h1 {
+    display: block;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    margin: 170px 0 100px;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 34px;
+    letter-spacing: 1px;
+    line-height: 1.8;
+}
+
+.boton {
+    
+    height: 100px;
+    color: #fff;
+    border-radius: 120px;
+    padding: 0 10%;
+    font-size: 33px;
+    margin-top: 50px;
+
+}
+
+.centrado-devices {
+    margin: 0 auto;
+    float: none !important;
+    display: block;
+    right: 0;
+    left: 0;
+}
+
+    .cin {
+        width: 100%;
+
+    }
+
+    .trein {
+        width: 80%;
+        float: none;
+
+    }
+
+    .logotipo {
+        display: inline-block;
+        width: 200px;
+    }
 
     .back-video {
         
@@ -519,6 +589,51 @@ footer a {
         position: relative;
         top: 0 !important ; right: 0; bottom: 0; left: 0;
         z-index: -1; 
+        color: #fff;
+
+    }
+
+    .front-image {
+         color: #fff;
+         float: left;
+        
+    }
+
+  
+
+    .back-image h1{
+        position: absolute;
+        
+        font-size: 120px;
+        text-align: center;
+        font-weight: normal;
+        font-family: 'Lato', sans-serif;
+        margin: 15% 0;
+
+
+    }
+
+    .back-image img{
+        float: none;
+        height: auto;
+        margin-top: 30%;
+
+
+
+    }
+
+    #nosotras {
+        height: 100%;
+        float: left;
+        display: block;
+        background: #fff;
+        color: #535353;
+
+    }
+
+    #nosotras img{
+        margin-top: 80px;
+
     }
 
 
@@ -539,6 +654,8 @@ footer a {
     background: #980abc;
     position: sticky;
     top: 0;
+    width: 100%;
+    margin: 0;
     
  }
 
@@ -558,6 +675,18 @@ footer a {
     background: #980abc;
     border-radius: 20px;
     height: 33px;
+
+
+}
+
+.menu p { 
+    display: none;
+
+
+}
+
+.menu a img { 
+    display: inline-block;
 
 
 }
