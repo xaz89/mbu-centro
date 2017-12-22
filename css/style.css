@@ -521,22 +521,22 @@ footer a {
 
 @media screen and (max-device-width: 1024px) {
 
-    h1 {
-    display: block;
-    font-size: 100px;
-    font-weight: bold;
-    font-family: 'Lato', sans-serif;
-    margin: 170px 0 100px;
-    text-align: center;
 
-}
+
+    h1 {
+        
+        font-size: 145px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;       
+        text-align: center;
+
+    }
 
     h3 {
         
-        font-size: 45px;
+        font-size: 50px;
         font-weight: bold;
-        font-family: 'Lato', sans-serif;
-        
+        font-family: 'Lato', sans-serif;       
         text-align: center;
 
     }
@@ -659,7 +659,7 @@ footer a{
     .back-image img{
         float: none;
         height: auto;
-        margin-top: 30%;
+        margin-top: 20%;
 
 
 
@@ -679,6 +679,16 @@ footer a{
 
     }
 
+    #nosotras h1 {
+        
+        font-size: 100px;
+        font-weight: bold;
+        font-family: 'Lato', sans-serif;       
+        text-align: center;
+        margin: 18% 0 5%;
+
+    }
+
 
     
     #galeria {
@@ -687,6 +697,27 @@ footer a{
         display: block;
         background: url(../img/fondo-mobile-n.jpg) repeat 0 100%;
         color: #fff;
+
+    }
+
+    #galeria h1 {
+        
+        font-size: 100px;
+        font-weight: normal;
+        font-family: 'Lato', sans-serif;       
+        text-align: center;
+        margin: 22% 0 5%;
+
+    }
+
+
+    #dudas h1 {
+        
+        font-size: 100px;
+        font-weight: normal;
+        font-family: 'Lato', sans-serif;       
+        text-align: center;
+        margin: 18% 0 5%;
 
     }
 
@@ -712,8 +743,8 @@ footer a{
     text-decoration: none;
     position: relative; 
     line-height: 2.5;
-    letter-spacing: 2px;
-    font-size: 23px;
+    letter-spacing: 1.5px;
+    font-size: 26px;
 }
 
 .menu a:hover { 
