@@ -1,7 +1,7 @@
 /* CSS para MBU Zona Centro de Jazmín Isol Prado */
 
 body {
-	background: #fff;
+	background: url(../img/fondo3g.png) center repeat;
 	font-family: 'Quicksand', sans-serif;
     margin:0; 
 }
@@ -23,7 +23,7 @@ p {
 }
 
 footer {
-    background: #980abc;
+    background: url(../img/fondo3.png) center repeat;
     height: auto;
     float: left;
     width: 100%;
@@ -109,7 +109,7 @@ footer a {
 .menu a:hover { 
     background: #980abc;
     border-radius: 20px;
-    height: 33px;
+    height: 32px;
 
 }
 
@@ -134,9 +134,9 @@ footer a {
 .logotipo {
     background: url(../img/logo-mbu.svg) center no-repeat;
     text-indent: -99999999px;
-    height: 100%;
+    height: auto;
     position: relative;
-    float: left;
+    float: none;
         
 }
 
@@ -144,7 +144,6 @@ footer a {
 
 .back-video {
 	width: 100%;
-    background: black;
     height: 100%;
 }
 
@@ -211,8 +210,19 @@ footer a {
     height: 100%;
     float: left;
     display: block;
-    background: #535353;
-    color: #fff;
+    background: #fff;
+    color: #535353;
+}
+
+#galeria img {
+    width: 25%;
+    float: left;
+    display: block;
+}
+
+#galeria img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
 #dudas {
@@ -227,7 +237,7 @@ footer a {
         height: 100%;
         float: left;
         display: block;
-        background: url(../img/fondo-cofra.jpg) repeat 0 100%;
+        background: url(../img/fondo-cofra.jpg) repeat-x 100%;
         color: #fff;
 
     }
@@ -707,10 +717,8 @@ footer a{
     #galeria {
         height: 100%;
         float: left;
-        display: block;
-        background: url(../img/fondo-mobile-n.jpg) repeat 0 100%;
-        color: #fff;
-
+        display: block;       
+        
     }
 
     #galeria h1 {
@@ -722,6 +730,18 @@ footer a{
         margin: 22% 0 5%;
 
     }
+
+    #galeria img {
+        width: 100%;
+        float: left;
+        display: block;
+    }
+
+    #galeria img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=50); /* For IE8 and earlier */
+    }
+
 
 
     #dudas h1 {
@@ -773,7 +793,7 @@ footer a{
 .menu a:hover { 
     background: #980abc;
     border-radius: 20px;
-    height: 33px;
+    height: 32px;
 
 
 }
