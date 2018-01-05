@@ -7,8 +7,11 @@
 
 
 
-	$varsesion = $_SESSION['usuario'];
-	$varsesion = $_SESSION['password'];
+	$usuario =$_POST['usuario'];
+	$password=$_POST['password'];
+
+	$_SESSION['usuario']=$usuario;
+	$_SESSION['password']=$password;
 
 
 

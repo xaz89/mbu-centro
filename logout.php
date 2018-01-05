@@ -2,8 +2,13 @@
 	session_start();
 
 	$varsesion = $_SESSION['usuario'];
+	$varsesion = $_SESSION['password'];
+
+	
+	
+	
 	if($varsesion == null || $varsesion = '') {
-		echo 'Usted no es una lady';
+		echo 'conio';
 		die ();
 	}
 
