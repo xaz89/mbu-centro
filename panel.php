@@ -103,8 +103,12 @@
 								</div>
 					</div>
 
+					
 
-					<iframe src="https://calendar.google.com/calendar/embed?src=j.isol%40conermex.com.mx&ctz=America/Mexico_City" style="border: 0" width="100%" height="1000px" frameborder="0" scrolling="no"></iframe>
+					<iframe src="https://calendar.google.com/calendar/embed?title=Agenda%20MBU-Centro&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=agenda.mbucentro%40gmail.com&amp;color=%2342104A&amp;ctz=America%2FMexico_City" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+
+					
 					
 							
 				
@@ -238,28 +242,33 @@
 					
 					<h1>Glosario</h1>
 
-					<div class="cin">
+						
 								<div class="forma">
 									<div class="nov centrado-devices">
+										<h3>Documentos</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto placeat et ipsam ullam, fugiat consectetur id. Inventore tenetur, ratione harum. Esse aut pariatur quisquam quas deserunt temporibus, aperiam itaque laudantium.</p>
-																		
+										<div class="forma">
+											<button class="boton trein"><a href="docs/manualdemanejo.pdf" target="_blank">Manual de manejo</a></button>
+											<button class="boton vein-cin margin-l50"><a href="docs/reglamento.pdf" target="_blank">Reglamento</a></button>
+											<button class="boton vein-cin margin-l50"><a href="docs/otros.pdf" target="_blank">Otros</a></button>
+										</div>
+										<div class="forma">
+										<h3>Glosario</h3>
+										<p><u>Barredora:</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni, dolorum modi ex impedit nesciunt quisquam repudiandae vero tempore quis deserunt mollitia est perspiciatis reprehenderit accusantium asperiores amet, omnis aspernatur!</p>
+										<p><u>Barredora:</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni, dolorum modi ex impedit nesciunt quisquam repudiandae vero tempore quis deserunt mollitia est perspiciatis reprehenderit accusantium asperiores amet, omnis aspernatur!</p>
+										<p><u>Barredora:</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni, dolorum modi ex impedit nesciunt quisquam repudiandae vero tempore quis deserunt mollitia est perspiciatis reprehenderit accusantium asperiores amet, omnis aspernatur!</p>
+										<p><u>Barredora:</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni, dolorum modi ex impedit nesciunt quisquam repudiandae vero tempore quis deserunt mollitia est perspiciatis reprehenderit accusantium asperiores amet, omnis aspernatur!</p>
+										<p><u>Barredora:</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni, dolorum modi ex impedit nesciunt quisquam repudiandae vero tempore quis deserunt mollitia est perspiciatis reprehenderit accusantium asperiores amet, omnis aspernatur!</p>
+										<p><u>Barredora:</u> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error magni, dolorum modi ex impedit nesciunt quisquam repudiandae vero tempore quis deserunt mollitia est perspiciatis reprehenderit accusantium asperiores amet, omnis aspernatur!</p>
+										</div>								
 									</div>
 
 								</div>
-							</div>
+							
 
 
-					<div class="cin">
-						<div class="forma">
-									<div class="nov centrado-devices">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto placeat et ipsam ullam, fugiat consectetur id. Inventore tenetur, ratione harum. Esse aut pariatur quisquam quas deserunt temporibus, aperiam itaque laudantium.</p>
-																		
-									</div>
 
-								</div>
-					</div>
-
-
+					
 					
 					
 							
